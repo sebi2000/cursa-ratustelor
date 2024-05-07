@@ -6,10 +6,26 @@ import { InfoDataThree } from "../data/InfoData";
 import PersonCard from "../components/ProfileCard";
 import Swipper from "../components/Swiper";
 import Denisa from "../images/Denisa.jpg";
-import Sebi from "../images/Sebi.jpg";
-import Natalia from "../images/Natalia.jpg";
+import Sebi from "../images/Sebi.jpeg";
 import Farcas from "../images/Farcas.jpg";
-import Marko from "../images/Marko.jpg";
+import Marina from "../images/Marina.jpeg"
+import Nico from "../images/Nico.jpeg"
+import Octa from "../images/Octa.jpeg"
+import Radu from "../images/Radu.jpeg"
+import Stefan from "../images/Stefan.jpg"
+import Bogdan from "../images/Bogdan.jpeg"
+import Anda from "../images/Anda.jpg"
+import Alexandra from "../images/Alexandra.jpeg"
+import Adi from "../images/Adi.jpeg"
+
+import Agasi from "../images/PR/AGASI.jpg"
+import CMO from "../images/PR/Centrul Medical Orthopedics.jpg"
+import CVM from "../images/PR/clear view media logo.jpeg"
+import Stars from "../images/PR/Copy of 50 Stars Beauty Studio logo.png"
+import Kartoffel from "../images/PR/Kartoffel.jpg"
+import Rotary from "../images/PR/RotaryTM-logo.png"
+import Tramonto from "../images/PR/Tramonto Cabin.jpg"
+import WCR from "../images/PR/WCR Logo 2020 Vectorial.svg"
 
 import RotaryLogo from "../images/rotaryLogo.jpg";
 import RotaractLogo from "../images/rotaract.jpg";
@@ -28,78 +44,101 @@ import GrafoPrint from "../images/grafo.jpg";
 const Rotaract = () => {
   const personCardData = [
     {
-      name: "Natalia Mijea",
+      name: "Denisa Stancu",
       position: "Coordonator Proiect",
-      img: Natalia,
+      img: Denisa,
       alt: "natalia-image",
-      redirectFacebook: "https://www.facebook.com/nataliamijea",
+      redirectFacebook: "https://www.facebook.com/stancu.denisa.921",
       id: 0,
     },
     {
-      name: "Natalia Mijea",
-      position: "Coordonator Proiect",
-      img: Natalia,
+      name: "Anda Trușcă",
+      position: "Coordonator Fundraising",
+      img: Anda,
       alt: "natalia-image",
-      redirectFacebook: "https://www.facebook.com/nataliamijea",
+      redirectFacebook: "https://www.facebook.com/andrada.trusca",
       id: 0,
     },
     {
-      name: "Natalia Mijea",
-      position: "Coordonator Proiect",
-      img: Natalia,
+      name: "Ștefan Țunea",
+      position: "Coordonator Fundraising",
+      img: Stefan,
       alt: "natalia-image",
-      redirectFacebook: "https://www.facebook.com/nataliamijea",
+      redirectFacebook: "https://www.facebook.com/stefanm175",
       id: 0,
     },
     {
-      name: "Natalia Mijea",
-      position: "Coordonator Proiect",
-      img: Natalia,
+      name: "Marina Oprean-Lungu",
+      position: "Coordonator Fundraising",
+      img: Marina,
       alt: "natalia-image",
-      redirectFacebook: "https://www.facebook.com/nataliamijea",
+      redirectFacebook: "https://www.facebook.com/marinaalexandra.lungu",
       id: 0,
     },
     {
-      name: "Natalia Mijea",
-      position: "Coordonator Proiect",
-      img: Natalia,
+      name: "Radu Bîrlan",
+      position: "Coordonator Fundraising",
+      img: Radu,
       alt: "natalia-image",
-      redirectFacebook: "https://www.facebook.com/nataliamijea",
+      redirectFacebook: "",
       id: 0,
     },
     {
-      name: "Flavia Farcaș",
-      position: "Coordonator PR",
+      name: "Flavia Fărcaș",
+      position: "Coordonator Logistica",
       img: Farcas,
       alt: "flavia-image",
       redirectFacebook: "https://www.facebook.com/farcas.flaviaa",
       id: 1,
     },
     {
-      name: "Denisa Stancu",
+      name: "Nicoleta Moissiu",
       position: "Coordonator Logistica",
-      img: Denisa,
-      alt: "denisa-image",
-      redirectFacebook: "https://www.facebook.com/stancu.denisa.921",
-      id: 2,
+      img: Nico,
+      alt: "flavia-image",
+      redirectFacebook: "https://www.facebook.com/nicoleta.moissiu",
+      id: 1,
     },
     {
-      name: "Sebastian Ștefănigă",
-      position: "Coordonator Fundraising",
-      img: Sebi,
-      alt: "Sebastian-image",
-      linkedin: true,
-      redirectFacebook: "https://www.linkedin.com/in/sebastianstefaniga/",
-      id: 3,
+      name: "Octaviana Darie",
+      position: "Coordonator Logistica",
+      img: Octa,
+      alt: "flavia-image",
+      redirectFacebook: "",
+      id: 1,
     },
     {
-      name: "Marko Cîmpan",
+      name: "Adrian Mitruț",
+      position: "Coordonator PR",
+      img: Adi,
+      alt: "flavia-image",
+      redirectFacebook: "https://www.facebook.com/mitrut.adrian",
+      id: 1,
+    },
+    {
+      name: "Alexandra Vîlcea",
+      position: "Coordonator PR",
+      img: Alexandra,
+      alt: "flavia-image",
+      redirectFacebook: "https://www.facebook.com/alevilcea",
+      id: 1,
+    },
+    {
+      name: "Bogdan Dobre",
+      position: "PR",
+      img: Bogdan,
+      alt: "flavia-image",
+      redirectFacebook: "https://www.facebook.com/dobre.bogdan.503",
+      id: 1,
+    },
+    {
+      name: "Sebastian Stoicescu",
       position: "Coordonator IT",
-      img: Marko,
+      img: Sebi,
       linkedin: true,
       alt: "marko-image",
       redirectFacebook:
-        "https://www.linkedin.com/in/marko-c%C3%AEmpan-9380b418a/",
+        "https://www.linkedin.com/in/sebastian-gabriel-stoicescu-594452204/",
       id: 3,
     },
   ];
@@ -113,22 +152,22 @@ const Rotaract = () => {
       img: RotaryLogo,
       alt: "rotary",
     },
-    {
-      img: RotaractLogo,
-      alt: "rotaract2",
-    },
-    {
-      img: PrimariaLogo,
-      alt: "primaria2",
-    },
-    {
-      img: Timisoara,
-      alt: "timisoara",
-    },
-    {
-      img: RipensisLogo,
-      alt: "ripensis",
-    },
+    // {
+    //   img: RotaractLogo,
+    //   alt: "rotaract2",
+    // },
+    // {
+    //   img: PrimariaLogo,
+    //   alt: "primaria2",
+    // },
+    // {
+    //   img: Timisoara,
+    //   alt: "timisoara",
+    // },
+    // {
+    //   img: RipensisLogo,
+    //   alt: "ripensis",
+    // },
     {
       img: RotaractLogo,
       alt: "rotaract",
@@ -137,43 +176,43 @@ const Rotaract = () => {
       img: PrimariaLogo,
       alt: "primaria",
     },
-    {
-      img: RotaractOpera,
-      alt: "opera",
-    },
+    // {
+    //   img: RotaractOpera,
+    //   alt: "opera",
+    // },
   ];
 
   const swipperDataSponsori = [
     {
-      img: Aramic,
+      img: Agasi,
       alt: "aramic",
     },
     {
-      img: YuhuLand,
+      img: CMO,
       alt: "yuhuLand",
     },
     {
-      img: BeautyStudio,
+      img: Tramonto,
       alt: "beautyStudio",
     },
     {
-      img: GrafoPrint,
+      img: Kartoffel,
       alt: "GrafoPrint",
     },
     {
-      img: Aramic,
+      img: Stars,
       alt: "aramic2",
     },
     {
-      img: YuhuLand,
+      img: CVM,
       alt: "yuhuLand2",
     },
     {
-      img: BeautyStudio,
+      img: Rotary,
       alt: "beautyStudio2",
     },
     {
-      img: GrafoPrint,
+      img: WCR,
       alt: "GrafoPrint2",
     },
   ];
