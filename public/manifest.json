@@ -1,0 +1,20 @@
+{
+  "short_name": "Cursa rătuștelor",
+  "name": "Cursa rățuștelor pe Bega",
+  "icons": [
+    {
+      "src": "logoRata.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logoRata.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
