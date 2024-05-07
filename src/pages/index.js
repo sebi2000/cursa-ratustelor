@@ -25,10 +25,10 @@ const Home = () => {
           justifyContent: "center",
           alignItems: "center",
         }}
-        
+
       >
         <ReactPlayer
-          url="https://www.youtube.com/watch?v=GYWha_Gw-is&ab_channel=RotaractClubTimisoara"
+          url="https://youtu.be/OqCREj40Z00"
           controls={true}
         />
       </div>
