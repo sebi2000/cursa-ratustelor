@@ -102,7 +102,7 @@ const Features = () => {
                   din judetul Timis, iar in functie de nevoie vom achizitiona ochelari de vedere pentru acesti elevi.
               </p>
               <Button to={{
-                  pathname: "https://buy.stripe.com/6oE29482t42ocww6oo",
+                  pathname: "https://buy.stripe.com/6oE00WciJ56s9kk3cd",
                   }}
                   target="_blank"
                   primary="true">

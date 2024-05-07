@@ -220,7 +220,7 @@ const Hero = ({ slides }) => {
 
                       <Button
                          to={{
-                          pathname: "https://buy.stripe.com/6oE29482t42ocww6oo",
+                          pathname: "https://buy.stripe.com/6oE00WciJ56s9kk3cd",
                         }}
                         target="_blank"
                         primary="true"
