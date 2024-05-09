@@ -114,7 +114,7 @@ const Footer = () => {
                 marginBottom: "15px",
               }}
             >
-              Politica de Confidențialitateee
+              Politica de Confidențialitate
             </CustomLink>
 
             <CustomLink

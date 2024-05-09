@@ -26,6 +26,12 @@ import Kartoffel from "../images/PR/Kartoffel.jpg"
 import Rotary from "../images/PR/RotaryTM-logo.png"
 import Tramonto from "../images/PR/Tramonto Cabin.jpg"
 import WCR from "../images/PR/WCR Logo 2020 Vectorial.svg"
+import buritto from "../images/PR/logo burrito.png"
+import Codru from "../images/PR/Codru.png"
+import bWines from "../images/PR/BWines.jpg"
+import yuhuu from "../images/PR/logo transparent.png"
+import porsche from "../images/PR/Porsche Engineering.png"
+import CC from "../images/PR/Camelia.png"
 
 import RotaryLogo from "../images/rotaryLogo.jpg";
 import RotaractLogo from "../images/rotaract.jpg";
@@ -213,6 +219,30 @@ const Rotaract = () => {
     },
     {
       img: WCR,
+      alt: "GrafoPrint2",
+    },
+    {
+      img: CC,
+      alt: "GrafoPrint2",
+    },
+    {
+      img: bWines,
+      alt: "GrafoPrint2",
+    },
+    {
+      img: buritto,
+      alt: "GrafoPrint2",
+    },
+    {
+      img: Codru,
+      alt: "GrafoPrint2",
+    },
+    {
+      img: yuhuu,
+      alt: "GrafoPrint2",
+    },
+    {
+      img: porsche,
       alt: "GrafoPrint2",
     },
   ];
