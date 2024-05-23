@@ -28,17 +28,17 @@ export const SliderData = [
     image: Prizes,
     alt: "Cursa caritabilă",
   },
-  {
-    title: "Cursa caritabilă a rățustelor pe Bega 2024 ",
-    subTitle: "Ediția a XV-a",
+  // {
+  //   title: "Cursa caritabilă a rățustelor pe Bega 2024 ",
+  //   subTitle: "Ediția a XV-a",
 
-    price:
-      "Participă și tu și susține cauza caritabilă din anul acesta!",
-    path: "/inscrie-te",
-    label: "Participa",
-    image: Sponsors,
-    alt: "Participa",
-  },
+  //   price:
+  //     "Participă și tu și susține cauza caritabilă din anul acesta!",
+  //   path: "/inscrie-te",
+  //   label: "Participa",
+  //   image: Sponsors,
+  //   alt: "Participa",
+  // },
 ];
 
 export const SliderDataTwo = [

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Button } from "./Button";
 
-import PosterRatusca from "../images/cursaBanner.jpg";
+import PosterRatusca from "../images/sponsors.jpeg";
 
 const Section = styled.section`
   background: #ffce2d;

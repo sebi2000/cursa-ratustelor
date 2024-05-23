@@ -32,6 +32,14 @@ import bWines from "../images/PR/BWines.jpg"
 import yuhuu from "../images/PR/logo transparent.png"
 import porsche from "../images/PR/Porsche Engineering.png"
 import CC from "../images/PR/Camelia.png"
+import darc from "../images/darc.png"
+import iulius from "../images/iulius.png"
+import TMA from "../images/TMA_logo negru.png"
+import Bastion from "../images/Policlinica Bastion.jpg"
+import Bikes from "../images/logoSupreme_v2.png"
+import escapeArena from "../images/Logo negru Escape Arena@2x.png"
+import andalusia from "../images/Cofetaria Andalusia logo.jpeg"
+import amicii from "../images/Amicii.jpg"
 
 import RotaryLogo from "../images/rotaryLogo.jpg";
 import RotaractLogo from "../images/rotaract.jpg";
@@ -243,6 +251,38 @@ const Rotaract = () => {
     },
     {
       img: porsche,
+      alt: "GrafoPrint2",
+    },
+    {
+      img: darc,
+      alt: "GrafoPrint2",
+    },
+    {
+      img: iulius,
+      alt: "GrafoPrint2",
+    },
+    {
+      img: TMA,
+      alt: "GrafoPrint2",
+    },
+    {
+      img: Bastion,
+      alt: "GrafoPrint2",
+    },
+    {
+      img: Bikes,
+      alt: "GrafoPrint2",
+    },
+    {
+      img: andalusia,
+      alt: "GrafoPrint2",
+    },
+    {
+      img: amicii,
+      alt: "GrafoPrint2",
+    },
+    {
+      img: escapeArena,
       alt: "GrafoPrint2",
     },
   ];
