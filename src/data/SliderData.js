@@ -1,6 +1,8 @@
 import Cursa1 from "../images/cursa-1.jpg";
 import Cursa2 from "../images/cursa-2.jpg";
 import Cursa3 from "../images/cursa-3.jpg";
+import Prizes from "../images/prizes.jpeg";
+import Sponsors from "../images/sponsors.jpeg";
 
 import Rotaract1 from "../images/rotaract-1.jpeg";
 
@@ -23,7 +25,7 @@ export const SliderData = [
       "Participă și tu și susține cauza caritabilă din anul acesta!",
     path: "/inscrie-te",
     label: "Cursa caritabilă",
-    image: Cursa2,
+    image: Prizes,
     alt: "Cursa caritabilă",
   },
   {
@@ -34,7 +36,7 @@ export const SliderData = [
       "Participă și tu și susține cauza caritabilă din anul acesta!",
     path: "/inscrie-te",
     label: "Participa",
-    image: Cursa3,
+    image: Sponsors,
     alt: "Participa",
   },
 ];
